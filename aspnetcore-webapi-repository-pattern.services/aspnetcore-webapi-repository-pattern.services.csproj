@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>aspnetcore_webapi_repository_pattern.services</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aspnetcore-webapi-repository-pattern.data\aspnetcore-webapi-repository-pattern.data.csproj" />
+  </ItemGroup>
+
+</Project>
